@@ -34,18 +34,39 @@ body.home h1 {
   color: white;
   width: 100%;
   padding: 15px;
-  font-size: 2em;
   transition: 0.25s all 0.25s;
   opacity: 0;
 }
 
-/* line 47, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
+/* line 44, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
+.grid-item a .info .title {
+  font-size: 2em;
+}
+
+/* line 48, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
+.grid-item a .info ul.categories {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 51, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
+.grid-item a .info ul.categories li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: rgba(0, 128, 0, 0.8);
+  padding: 2.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+/* line 64, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
 .grid-item a:hover .info {
   opacity: 1;
   bottom: 0;
 }
 
-/* line 53, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
+/* line 70, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
 .grid-item a:after {
   content: " ";
   position: absolute;
@@ -58,7 +79,7 @@ body.home h1 {
   transition: all 2s;
 }
 
-/* line 67, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
+/* line 84, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
 .grid-item.visible a:after {
   top: -110%;
 }

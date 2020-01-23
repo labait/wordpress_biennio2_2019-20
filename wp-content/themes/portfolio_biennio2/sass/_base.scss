@@ -38,9 +38,26 @@ body.home h1{
       color: white;
       width: 100%;
       padding: $spacer;
-      font-size: 2em;
       transition: 0.25s all 0.25s;
       opacity: 0;
+
+      .title {
+        font-size: 2em;
+      }
+
+      ul.categories {
+        padding: 0;
+        margin: 0;
+        li {
+          display: inline-block;
+          list-style-type: none;
+          background-color: rgba($color: $color2, $alpha: 0.8);
+          padding: $spacer/6;
+          padding-left: $spacer/3;
+          padding-right: $spacer/3;
+          margin-right: $spacer/3;
+        }
+      }
     }
 
     &:hover {
