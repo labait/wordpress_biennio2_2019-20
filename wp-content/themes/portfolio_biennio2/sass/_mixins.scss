@@ -1,0 +1,6 @@
+
+@mixin debug($size:1px, $color:red) {
+  @if $is_debug {
+    border: $size solid $color;
+  }
+}

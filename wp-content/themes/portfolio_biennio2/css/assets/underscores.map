@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../../sass/assets/underscores.css",
+	"sources": [
+		"../../sass/assets/underscores.scss",
+		"../../src/sass/underscores/_galleries.scss"
+	],
+	"sourcesContent": [
+		"@import \"../../src/sass/underscores/galleries\";\n",
+		".gallery {\n\tmargin-bottom: 1.5em;\n}\n\n.gallery-item {\n\tdisplay: inline-block;\n\ttext-align: center;\n\tvertical-align: top;\n\twidth: 100%;\n\n\t.gallery-columns-2 & {\n\t\tmax-width: 50%;\n\t}\n\n\t.gallery-columns-3 & {\n\t\tmax-width: 33.33%;\n\t}\n\n\t.gallery-columns-4 & {\n\t\tmax-width: 25%;\n\t}\n\n\t.gallery-columns-5 & {\n\t\tmax-width: 20%;\n\t}\n\n\t.gallery-columns-6 & {\n\t\tmax-width: 16.66%;\n\t}\n\n\t.gallery-columns-7 & {\n\t\tmax-width: 14.28%;\n\t}\n\n\t.gallery-columns-8 & {\n\t\tmax-width: 12.5%;\n\t}\n\n\t.gallery-columns-9 & {\n\t\tmax-width: 11.11%;\n\t}\n}\n\n.gallery-caption {\n\tdisplay: block;\n}"
+	],
+	"mappings": ";ACAA,AAAA,QAAQ,CAAC;EACR,aAAa,EAAE,KAAM;CACrB;;;AAED,AAAA,aAAa,CAAC;EACb,OAAO,EAAE,YAAa;EACtB,UAAU,EAAE,MAAO;EACnB,cAAc,EAAE,GAAI;EACpB,KAAK,EAAE,IAAK;CAiCZ;;;AA/BA,AAND,kBAMmB,CANnB,aAAa,CAMS;EACpB,SAAS,EAAE,GAAI;CACf;;;AAED,AAVD,kBAUmB,CAVnB,aAAa,CAUS;EACpB,SAAS,EAAE,MAAO;CAClB;;;AAED,AAdD,kBAcmB,CAdnB,aAAa,CAcS;EACpB,SAAS,EAAE,GAAI;CACf;;;AAED,AAlBD,kBAkBmB,CAlBnB,aAAa,CAkBS;EACpB,SAAS,EAAE,GAAI;CACf;;;AAED,AAtBD,kBAsBmB,CAtBnB,aAAa,CAsBS;EACpB,SAAS,EAAE,MAAO;CAClB;;;AAED,AA1BD,kBA0BmB,CA1BnB,aAAa,CA0BS;EACpB,SAAS,EAAE,MAAO;CAClB;;;AAED,AA9BD,kBA8BmB,CA9BnB,aAAa,CA8BS;EACpB,SAAS,EAAE,KAAM;CACjB;;;AAED,AAlCD,kBAkCmB,CAlCnB,aAAa,CAkCS;EACpB,SAAS,EAAE,MAAO;CAClB;;;AAGF,AAAA,gBAAgB,CAAC;EAChB,OAAO,EAAE,KAAM;CACf",
+	"names": []
+}
