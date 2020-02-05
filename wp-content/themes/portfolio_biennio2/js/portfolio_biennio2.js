@@ -14,12 +14,15 @@
 
       // typed
       var typed_pause = 1000;
-      var typed1 = new Typed('#typed1', {
-        strings: ["developer. ^"+typed_pause, "designer. ^"+typed_pause],
-        typeSpeed: 100,
-        backSpeed: 20,
-        loop: true
-      });
+      if($('#typed1').length > 0) {
+        var typed1 = new Typed('#typed1', {
+          strings: ["developer. ^" + typed_pause, "designer. ^" + typed_pause],
+          typeSpeed: 100,
+          backSpeed: 20,
+          loop: true
+        });
+      }
+
 
       // isotope
       $('.grid').isotope({

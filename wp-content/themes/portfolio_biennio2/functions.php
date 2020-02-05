@@ -26,7 +26,10 @@ function theme_enqueue_styles() {
     wp_enqueue_script( 'typed-scripts', get_stylesheet_directory_uri() . '/typed.js/lib/typed.min.js', array(), $the_theme->get( 'Version' ), true );
     
     wp_enqueue_script( 'isotope-scripts', get_stylesheet_directory_uri() . '/isotope/isotope.pkgd.min.js', array(), $the_theme->get( 'Version' ), true );
-    
+
+    wp_enqueue_script('lightbox-scripts', get_stylesheet_directory_uri() . '/lightbox2/dist/js/lightbox.min.js', array(), $the_theme->get('Version'), true);
+    wp_enqueue_style('lightbox-styles', get_stylesheet_directory_uri() . '/lightbox2/dist/css/lightbox.min.css', array(), $the_theme->get('Version'));
+       
     wp_enqueue_script( 'wow-scripts', get_stylesheet_directory_uri() . '/wow/wow.min.js', array(), $the_theme->get( 'Version' ), true );
     wp_enqueue_style( 'wow-styles', get_stylesheet_directory_uri() . '/wow/animate.css', array(), $the_theme->get( 'Version' ));
     
