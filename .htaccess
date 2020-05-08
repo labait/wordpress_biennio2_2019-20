@@ -5,11 +5,11 @@
 # Ogni modifica alle direttive tra questi marcatori sarà sovrascritta.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wordpress_biennio2_2019-20/
+RewriteBase /wordpress_biennio2_201920/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress_biennio2_2019-20/index.php [L]
+RewriteRule . /wordpress_biennio2_201920/index.php [L]
 </IfModule>
 
 # END WordPress

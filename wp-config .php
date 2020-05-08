@@ -1,7 +1,7 @@
 <?php
 
-define('WP_HOME', 'http://localhost:8888/wordpress_biennio2_2019-20/');
-define('WP_SITEURL', 'http://localhost:8888/wordpress_biennio2_2019-20/');
+define('WP_HOME', 'http://localhost:8888/wordpress_biennio2_201920/');
+define('WP_SITEURL', 'http://localhost:8888/wordpress_biennio2_201920/');
 
 /**
  * Il file base di configurazione di WordPress.

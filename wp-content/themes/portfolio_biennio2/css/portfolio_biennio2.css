@@ -1,145 +1,133 @@
-/* line 9, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
-h1, h2, h3 {
-  color: #3575FF;
-}
+body.page-template-homepage-isotope h1, body.page-template-homepage-isotope h2, body.page-template-homepage-isotope h3 {
+  color: #3575FF; }
+body.page-template-homepage-isotope nav a.navbar-brand {
+  width: 150px; }
 
-/* line 14, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_base.scss */
-nav a.navbar-brand {
-  width: 150px;
-}
-
-/* line 5, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home #hero h1 {
-  font-size: 3em;
-}
-
-/* line 10, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .typed-cursor {
-  color: white;
-}
-
-/* line 15, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home h1 {
-  font-size: 3em;
-}
-
-/* line 18, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home #wrapper-navbar {
+body.page-template-homepage-isotope.home #hero h1 {
+  font-size: 3em; }
+body.page-template-homepage-isotope.home .typed-cursor {
+  color: white; }
+body.page-template-homepage-isotope.home h1 {
+  font-size: 3em; }
+body.page-template-homepage-isotope.home #wrapper-navbar {
   z-index: 1;
-  position: relative;
-}
-
-/* line 24, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home nav.bg-primary {
-  background-color: transparent !important;
-}
-
-/* line 29, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home #hero {
+  position: relative; }
+body.page-template-homepage-isotope.home nav.bg-primary {
+  background-color: transparent !important; }
+body.page-template-homepage-isotope.home #hero {
   z-index: 0;
   top: -55px;
-  position: relative;
-}
-
-/* line 33, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home #hero h1 {
-  color: white;
-  font-size: 8em;
-  position: absolute;
-  left: 30px;
-  bottom: 60px;
-}
-
-/* line 39, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home #hero h1 .typed {
-  color: #3575FF;
-}
-
-/* line 45, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item {
+  position: relative; }
+  body.page-template-homepage-isotope.home #hero h1 {
+    color: white;
+    font-size: 8em;
+    position: absolute;
+    left: 30px;
+    bottom: 60px; }
+    body.page-template-homepage-isotope.home #hero h1 .typed {
+      color: #3575FF; }
+body.page-template-homepage-isotope.home .grid-item {
   width: 100%;
   position: relative;
-  overflow: hidden;
-}
-
-/* line 51, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .link {
-  margin: 15px;
-  display: block;
-}
-
-/* line 56, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .link:after {
-  content: " ";
-  margin: 15px;
-  position: absolute;
-  width: calc(100% - 30px);
-  height: 100%;
-  background-color: #9bbbff;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  transition: all 2s;
-}
-
-/* line 70, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .info {
-  margin: 30px;
-  position: absolute;
-  bottom: 30px;
-  color: white;
-  width: calc(100% - 60px);
-  transition: 0.25s all 0.25s;
-  opacity: 0;
-}
-
-/* line 80, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .info .title {
-  font-size: 2em;
-}
-
-/* line 84, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .info ul.post-categories {
-  padding: 0;
-  margin: 0;
-}
-
-/* line 87, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .info ul.post-categories li {
-  display: inline-block;
-  list-style-type: none;
-  background-color: #3575FF;
-  padding: 2.5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-right: 5px;
-}
-
-/* line 95, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item .info ul.post-categories li a {
-  color: white;
-}
-
-/* line 103, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item:hover .info {
-  opacity: 1;
-  bottom: 0;
-}
-
-/* line 110, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_page-home.scss */
-body.home .grid-item.visible .link:after {
-  height: 0;
-}
+  overflow: hidden; }
+  body.page-template-homepage-isotope.home .grid-item .link {
+    margin: 15px;
+    display: block; }
+    body.page-template-homepage-isotope.home .grid-item .link:after {
+      content: " ";
+      margin: 15px;
+      position: absolute;
+      width: calc(100% - 30px);
+      height: 100%;
+      background-color: #9bbbff;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      transition: all 2s; }
+  body.page-template-homepage-isotope.home .grid-item .info {
+    margin: 30px;
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    width: calc(100% - 60px);
+    transition: 0.25s all 0.25s;
+    opacity: 0; }
+    body.page-template-homepage-isotope.home .grid-item .info .title {
+      font-size: 2em; }
+    body.page-template-homepage-isotope.home .grid-item .info ul.post-categories {
+      padding: 0;
+      margin: 0; }
+      body.page-template-homepage-isotope.home .grid-item .info ul.post-categories li {
+        display: inline-block;
+        list-style-type: none;
+        background-color: #3575FF;
+        padding: 2.5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 5px; }
+        body.page-template-homepage-isotope.home .grid-item .info ul.post-categories li a {
+          color: white; }
+  body.page-template-homepage-isotope.home .grid-item:hover .info {
+    opacity: 1;
+    bottom: 0; }
+  body.page-template-homepage-isotope.home .grid-item.visible .link:after {
+    height: 0; }
 
 @media screen and (min-width: 768px) {
-  /* line 5, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_responsive.scss */
   body.home .grid-item {
-    width: 50%;
-  }
-  /* line 10, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/sass/_responsive.scss */
+    width: 50%; }
   body.home #hero h1 {
-    font-size: 8em;
-  }
-}
+    font-size: 8em; } }
+body.page-template-homepage_alternate_images nav {
+  background-color: transparent !important;
+  color: black; }
+  body.page-template-homepage_alternate_images nav .menu-item a.nav-link {
+    color: black; }
+body.page-template-homepage_alternate_images #main > .content {
+  margin-bottom: 60px; }
+  body.page-template-homepage_alternate_images #main > .content h1 {
+    font-size: 4em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100; }
+body.page-template-homepage_alternate_images #works .work {
+  margin-bottom: 30px; }
+  body.page-template-homepage_alternate_images #works .work > .content .texts {
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7.5px;
+    transform: rotate(-5deg); }
+    body.page-template-homepage_alternate_images #works .work > .content .texts h2 {
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-size: 2em; }
+    @media (min-width: 992px) {
+      body.page-template-homepage_alternate_images #works .work > .content .texts {
+        left: -15px; } }
+  body.page-template-homepage_alternate_images #works .work > .content img {
+    width: 600px;
+    display: block;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    -webkit-box-shadow: 7.5px 7.5px 20px #ccc;
+    -moz-box-shadow: 7.5px 7.5px 20px #ccc;
+    box-shadow: 7.5px 7.5px 20px #ccc; }
+  body.page-template-homepage_alternate_images #works .work > .content:hover {
+    display: block;
+    transition: all 0.3s;
+    transform: scale(1.05) rotate(1deg); }
+    body.page-template-homepage_alternate_images #works .work > .content:hover .texts {
+      transition: all 0.3s;
+      transform: scale(1.05) rotate(1deg); }
+    body.page-template-homepage_alternate_images #works .work > .content:hover img {
+      transition: all 0.3s;
+      -webkit-box-shadow: 30px 30px 20px #ccc;
+      -moz-box-shadow: 30px 30px 20px #ccc;
+      box-shadow: 30px 30px 20px #ccc; }
 
-/*# sourceMappingURL=../css/portfolio_biennio2.map */
+/*# sourceMappingURL=portfolio_biennio2.css.map */

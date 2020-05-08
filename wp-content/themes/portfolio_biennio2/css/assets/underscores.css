@@ -1,9 +1,9 @@
-/* line 1, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 1, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery {
   margin-bottom: 1.5em;
 }
 
-/* line 5, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 5, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-item {
   display: inline-block;
   text-align: center;
@@ -11,47 +11,47 @@
   width: 100%;
 }
 
-/* line 11, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 11, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 15, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 15, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
 
-/* line 19, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 19, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 23, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 23, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 27, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 27, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 31, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 31, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 35, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 35, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 39, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 39, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 44, /Applications/MAMP/htdocs/wordpress_biennio2_2019-20/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
+/* line 44, /Applications/MAMP/htdocs/wordpress_biennio2_201920/wp-content/themes/portfolio_biennio2/src/sass/underscores/_galleries.scss */
 .gallery-caption {
   display: block;
 }

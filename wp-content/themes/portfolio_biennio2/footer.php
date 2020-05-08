@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-					<?php get_template_part( 'template-parts/social' ); ?>
+					<?php //get_template_part( 'template-parts/social' ); ?>
 
 						<?php understrap_site_info(); ?>
 
